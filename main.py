@@ -1,5 +1,6 @@
 import requests
 import subprocess
+import time
 
 lockfile_path = "C:/Riot Games/League of Legends/lockfile"
 username = 'riot'
@@ -57,17 +58,18 @@ def get_champion():
 def open_champion_page(champion_name):
     chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
     subprocess.Popen([chrome_path, f'https://op.gg/champion/{champion_name}'])
-    # subprocess.Popen([chrome_path, f'https://lolalytics.com/lol/{champion_name}/build/'])
+    subprocess.Popen([chrome_path, f'https://lolalytics.com/lol/{champion_name}/build/'])
 
-
-def main():
-    champion_name = get_champion()
-    if champion_name != "Unknown Champion":
-        print(f"Opening op.gg page for {champion_name}...")
-        open_champion_page(champion_name.lower()) # lolalytics is case sensitive
-    else:
-        print("Champion is undefined.")
 
 
 if __name__ == "__main__":
-    main()
+    while True:
+        champion_name = get_champion()
+        if champion_name != "Unknown Champion":
+            print(f"Opening op.gg page for {champion_name}...")
+            open_champion_page(champion_name.lower()) # lolalytics is case sensitive
+            time.sleep(300)
+        else:
+            print("Champion is undefined.")
+            time.sleep(2)
+            
