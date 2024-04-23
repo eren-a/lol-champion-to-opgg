@@ -10,7 +10,7 @@ lockfile_path = "C:/Riot Games/League of Legends/lockfile"
 username = 'riot'
 champions = {
     '266': "Aatrox", '103': "Ahri", '84': "Akali", '166': "Akshan", '12': "Alistar", '32': "Amumu", '34': "Anivia",
-    '1': "Annie", '523': "Aphelios", '22': "Ashe", '136': "Aurelion Sol", '268': "Azir", '432': "Bard", '200': "BelVeth",
+    '1': "Annie", '523': "Aphelios", '22': "Ashe", '136': "AurelionSol", '268': "Azir", '432': "Bard", '200': "BelVeth",
     '53': "Blitzcrank", '63': "Brand", '201': "Braum", '233': "Briar", '51': "Caitlyn", '164': "Camille", '69': "Cassiopeia",
     '31': "ChoGath", '42': "Corki", '122': "Darius", '131': "Diana", '119': "Draven", '36': "Dr. Mundo", '245': "Ekko",
     '60': "Elise", '28': "Evelynn", '81': "Ezreal", '9': "Fiddlesticks", '114': "Fiora", '105': "Fizz", '3': "Galio",
@@ -18,7 +18,7 @@ champions = {
     '74': "Heimerdinger", '910': "Hwei", '420': "Illaoi", '39': "Irelia", '427': "Ivern", '40': "Janna", '59': "JarvanIV",
     '24': "Jax", '126': "Jayce", '202': "Jhin", '222': "Jinx", '145': "KaiSa", '429': "Kalista", '43': "Karma",
     '30': "Karthus", '38': "Kassadin", '55': "Katarina", '10': "Kayle", '141': "Kayn", '85': "Kennen", '121': "KhaZix",
-    '203': "Kindred", '240': "Kled", '96': "KogMaw", '897': "KSante", '7': "LeBlanc", '64': "Lee Sin", '89': "Leona",
+    '203': "Kindred", '240': "Kled", '96': "KogMaw", '897': "KSante", '7': "LeBlanc", '64': "LeeSin", '89': "Leona",
     '876': "Lillia", '127': "Lissandra", '236': "Lucian", '117': "Lulu", '99': "Lux", '54': "Malphite", '90': "Malzahar",
     '57': "Maokai", '11': "MasterYi", '902': "Milio", '21': "MissFortune", '62': "Wukong", '82': "Mordekaiser",
     '25': "Morgana", '950': "Naafiri", '267': "Nami", '75': "Nasus", '111': "Nautilus", '518': "Neeko", '76': "Nidalee",
@@ -27,7 +27,7 @@ champions = {
     '526': "Rell", '888': "RenataGlasc", '58': "Renekton", '107': "Rengar", '92': "Riven", '68': "Rumble", '13': "Ryze",
     '360': "Samira", '113': "Sejuani", '235': "Senna", '147': "Seraphine", '875': "Sett", '35': "Shaco", '98': "Shen",
     '102': "Shyvana", '27': "Singed", '14': "Sion", '15': "Sivir", '72': "Skarner", '901': "Smolder", '37': "Sona",
-    '16': "Soraka", '50': "Swain", '517': "Sylas", '134': "Syndra", '223': "Tahm Kench", '163': "Taliyah", '91': "Talon",
+    '16': "Soraka", '50': "Swain", '517': "Sylas", '134': "Syndra", '223': "TahmKench", '163': "Taliyah", '91': "Talon",
     '44': "Taric", '17': "Teemo", '412': "Thresh", '18': "Tristana", '48': "Trundle", '23': "Tryndamere",
     '4': "TwistedFate", '29': "Twitch", '77': "Udyr", '6': "Urgot", '110': "Varus", '67': "Vayne", '45': "Veigar",
     '161': "VelKoz", '711': "Vex", '254': "Vi", '234': "Viego", '112': "Viktor", '8': "Vladimir", '106': "Volibear",
