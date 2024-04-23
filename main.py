@@ -12,7 +12,7 @@ champions = {
     '266': "Aatrox", '103': "Ahri", '84': "Akali", '166': "Akshan", '12': "Alistar", '32': "Amumu", '34': "Anivia",
     '1': "Annie", '523': "Aphelios", '22': "Ashe", '136': "AurelionSol", '268': "Azir", '432': "Bard", '200': "BelVeth",
     '53': "Blitzcrank", '63': "Brand", '201': "Braum", '233': "Briar", '51': "Caitlyn", '164': "Camille", '69': "Cassiopeia",
-    '31': "ChoGath", '42': "Corki", '122': "Darius", '131': "Diana", '119': "Draven", '36': "Dr. Mundo", '245': "Ekko",
+    '31': "ChoGath", '42': "Corki", '122': "Darius", '131': "Diana", '119': "Draven", '36': "DrMundo", '245': "Ekko",
     '60': "Elise", '28': "Evelynn", '81': "Ezreal", '9': "Fiddlesticks", '114': "Fiora", '105': "Fizz", '3': "Galio",
     '41': "Gangplank", '86': "Garen", '150': "Gnar", '79': "Gragas", '104': "Graves", '887': "Gwen", '120': "Hecarim",
     '74': "Heimerdinger", '910': "Hwei", '420': "Illaoi", '39': "Irelia", '427': "Ivern", '40': "Janna", '59': "JarvanIV",
