@@ -81,7 +81,7 @@ if __name__ == "__main__":
                 print(f"Opening op.gg page for {champion_name}...")
                 open_champion_page(champion_name.lower()) # lolalytics is case sensitive
                 try:
-                    time.sleep(120)
+                    time.sleep(600)
                 except KeyboardInterrupt:
                     print("Sleep interrupted by KeyboardInterrupt.")
             else:
