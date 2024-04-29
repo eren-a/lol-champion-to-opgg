@@ -1,6 +1,7 @@
 import requests
 import subprocess
 import time
+import pygetwindow
 
 # disable warnings related to insecure requests
 import urllib3
@@ -64,24 +65,27 @@ def open_champion_page(champion_name):
     subprocess.Popen([chrome_path, f'https://op.gg/champion/{champion_name}'])
     subprocess.Popen([chrome_path, f'https://lolalytics.com/lol/{champion_name}/build/'])
 
-
+def check_window(window_title):
+    window = pygetwindow.getWindowsWithTitle(window_title)
+    if window:
+        return True
+    else:
+        return False
 
 if __name__ == "__main__":
+    specific_window_title = "League of Legends (TM) Client"
     while True:
-        champion_name = get_champion()
-        if champion_name != "Unknown Champion":
-            print(f"Opening op.gg page for {champion_name}...")
-            open_champion_page(champion_name.lower()) # lolalytics is case sensitive
-            try:
-                time.sleep(600)
-            except KeyboardInterrupt:
-                print("Trying again...")
-                
-        else:
-            print("Champion is undefined.")
-            try:
-                time.sleep(2)
-            except KeyboardInterrupt:
-                print("Trying again...")
+        if not check_window(specific_window_title):
+            champion_name = get_champion()
+            if champion_name != "Unknown Champion":
+                print(f"Opening op.gg page for {champion_name}...")
+                open_champion_page(champion_name.lower()) # lolalytics is case sensitive
+                try:
+                    time.sleep(120)
+                except KeyboardInterrupt:
+                    print("Sleep interrupted by KeyboardInterrupt.")
+            else:
+                print("No Champion locked.")
+        time.sleep(10)
 
             
